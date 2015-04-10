@@ -24,7 +24,7 @@ test_requirements = [
 
 setup(
     name='hotsyk',
-    version='0.1.0',
+    version='0.1.1',
     description="Volodymyr Hotsyk's CV",
     long_description=readme + '\n\n' + history,
     author="Volodymyr Hotsyk",

@@ -1,11 +1,18 @@
 # -*- coding: utf-8 -*-
+import webbrowser
 
 
-def cv():
+def cv(open_browser=False):
     """Return url to CV"""
-    return "http://hotsyk.com/cv/"
+    link = "http://hotsyk.com/cv/"
+    if open_browser:
+        return webbrowser.open_new_tab(link)
+    return link
 
 
-def talks():
+def talks(open_browser=False):
     """Return url to page with list of talk"""
-    return "http://hotsyk.com/talks/"
+    link = "http://hotsyk.com/talks/"
+    if open_browser:
+        return webbrowser.open_new_tab(link)
+    return link
